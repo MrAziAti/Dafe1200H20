@@ -1,0 +1,43 @@
+body{
+    background-color: rgba(60, 60, 60, 0.4);
+    /*This is a comment in CSS */
+    /*https://www.w3schools.com/html/html_colors.asp*/
+
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px; /* Dont know when we will use this, but possible*/
+    
+}
+h1{
+    font-family: times, 'times new roman'; /*https://www.w3schools.com/css/css_font.asp*/
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: -20px;
+}
+h2{
+    font-family: times, 'times new roman'; /*https://www.w3schools.com/css/css_font.asp*/
+    font-size: 1.75em;
+    font-weight: normal;
+    margin-left: -20px;
+}
+h3{
+    font-family: sans-serif; /*https://www.w3schools.com/css/css_font.asp*/
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: -20px;
+}
+p {
+    font-family: sans-serif; /*https://www.w3schools.com/css/css_font.asp*/
+    font-size: 1em;
+    
+}
+.right{
+    text-align: right;
+}
+
+/*Plan: H1 = 2em, H2 = 1,75, H3 = 1,4em, H4 = 1,2em*/
+
+td, th{
+    padding: 4px;
+}
