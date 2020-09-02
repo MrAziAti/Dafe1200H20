@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DAFE1200 HTML and CSS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/stylesheet-one.css">
+    </head>
+
+    <body>
+    
+    <h4>Menu</h4>
+    <ul type="square">
+        <li><a href="#coders">Coder´s salary</a></li>
+        <li><a href="#skills">Secondary skills</a></li>
+        <li><a href="#gender">Salary and gender</a></li>
+        <li><a href="#knows">It´s good to know</a></li>
+    </ul>
+        <h1>Salary</h1>
+        <h2 id="coders">Coder´s salary</h2>
+        <p >Sometimes, difference in pay is down to skills (and the demand for them).
+           <a href="https://www.itjobswatch.co.uk/IT-Job-Market/UK/Programming-Languages">
+            For example coding languages.</a> </p>
+
+        
+        <table>
+            <caption>Table 1: Typical salaries for coders</caption>
+            <tr> <!--First row should (often have) "table headings" <th> rather than <td>-->
+                <th>Language</th>
+                <th>Median pay</th>
+                <th>Change</th>
+                <th>% of median <br /> java pay</th>
+            </tr>
+
+            <tr>
+                <td>Java</td>
+                <td class ="right">&pound;65,000</td>
+                <td class ="right">+ 8.33 %</td>
+                <td class ="right">&mdash;</td>
+            </tr>
+            <tr>
+                <td>Javascript</td>
+                <td class ="right">&pound;52,500</td>
+                <td class ="right">+ 5.00 %</td>
+                <td class ="right">81 %</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td class ="right">&pound;55,000</td>
+                <td class ="right">+ 10.00</td>
+                <td class ="right"> 85 %</td>
+            </tr>
+            <tr>
+                <td >PHP</td>
+                <td class ="right">&pound;45,000</td>
+                <td class ="right">+ 1.12%</td>
+                <td class ="right">70 %</td>
+            </tr>
+            <tr>
+                <td>Go</td>
+                <td class ="right">&pound;67,500</td>
+                <td class ="right">- 3.57 %</td>
+                <td class ="right">104 %</td>
+            </tr>
+        </table>
+        <p>This data is presumably based on job-adverts, and the data is collected in the first six months of 2020.
+            Which was a roller-coster period for many IT-Businesses.
+        </p>
+        <h3 id="skills">Salaries are not just about the main skills</h3>
+        <p>Usually, secondary skills are wanted as well. And experience counts a lot.</p>
+        <p>Therefore, please mint that "median salary" is not <em>first-job pay</em>(not starting positions). So with a lot of
+            experience Java-programmer out there, the median salary may be muvh higher than starting salary.
+        </p>
+        <p>Concering secondary skills, look at "GO". A new language, compared to Java, with a tenth of the "Historical permanent job ads" of java.
+            It is better paid in general, which shoud leed us to assume that it may have a much higher starting salary.
+            That would not be odd. Go is used for scalebility in the networked servers. If you know Go, you probably now a bit about scaleable network
+            servers as well.
+        </p>
+
+        <h3 id="gender">The difficulty of comparing salaries</h3>
+        <p>The difficulty in comparing salaries, is easiest illustrated by looking at men versus women.</p>
+        <p>Men <strong>consistently</strong> earn more than woman in general. However, whenever we attempt to brake it down and ensure that we compared
+        similar jobs with comperable task, the difference <em>almost</em> disapperes. This was illustradet yet again, in a recent discussion about pay in academia</p>
+
+        <blockquote cite="https://khrono.no/kjonn-oglonnsstatistikk/503270">
+            Her ser vi eit interessant mønster: mennene tener i gjennomsnitt nesten 65 tusen meir enn kvinnene, 
+            trass i at kvinner tener meir enn menn i tre av dei fire stillingskodane. Det er kun for førsteamanuensar 
+            at mennene tener mest. Ein kan også legge merke til at lønnsforskjellane for kvar stillingskode er små 
+            (mellom to og åtte tusen) samanlikna med den aggregerte forskjellen på 65 tusen. Den store forskjellen 
+            mellom menns og kvinners lønn kjem altså av at dei har ulik jobb. Den vanlegaste stillinga for mennene 
+            i utvalget er professor, medan den vanlegaste stillinga for kvinnene er stipendiat. (From <a href="https://khrono.no/kjonn-oglonnsstatistikk/503270">Khrono, Gender and salary 
+                statistics, 19/07/20)</a>.<!-- This links is 'absoulute', specifies a unique address -->
+        </blockquote>
+
+        <h1 id="knows">Glass doors, ceilings and salary</h1>
+            <p>If we continue to look at women and pay, does this mean that we just have to wait and the pay-gap will sort it self out?
+                Preliminiary data from the IT-businessen is not just promissing. A <a href="https://research.hackerrank.com/women-in-tech/2019#intro" title="Women in tech">recent report (from HackerRank)</a> highlight how women consistently work
+                    in more junior positions than men at the same age.  
+            </p>
+
+        <picture><!-- this wrapper is usefull for later manupulation with CSS-->
+            <img src="Bilde1.jpeg"><!-- this link is 'Relative', specifies position relative to the html file; as long as both file & folder is moved together, the link will not brake-->
+        </picture>
+
+        <h2>The importance of information</h2>
+        <p>In norway, you may ask for the exact salary and pay (with overtime) for anyone publicly employed. You want to know my salary?
+            Ask OsloMet. Webpages like those mentioned aboce, as well as labour unions, try to collect salary data so you can find out how your pay compares
+            to other. </p>
+        <p>Yet, as we know from studies on women and advancement, about recruitment and people without network -either from out of town
+            , or worse, foreign - who you know may be more important.
+        </p>
+        <p>That is why unions, and webpages like <a href="https://Glassdoor.com">Glassdor.com</a> are important. They will help you see if you recieve a fair pay. And they 
+        may shareinformation about how fait the overall culture is in a company. (Glassdoor.com does, unions may not)</p>
+    </body>
+</html>
